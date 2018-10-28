@@ -40,42 +40,42 @@ B.serialize({hello: 'js'}) //return '?hello=js'
 ### $(selector)
 - Function for simulating jQuery
 ```
-B.$(selector) //return {DOM|undefined}
+B.$(selector) //return {DOM|null}
 ```
 <br>
 
 ### removeNode(node)
 - Function for Deleting DOM node
 ```
-B.removeNode(node) //return {DOM}
+B.removeNode(node) //return {DOM|null}
 ```
 <br>
 
 ### insertAfter(node)
 - Function for inserting the node node after the target node
 ```
-B.insertAfter(node, target) //return true or false
+B.insertAfter(node, target) //return {null|true}
 ```
 <br>
 
 ### addClass(node, className)
 - Function for add class name
 ```
-B.addClass(node, className) //return true or false
+B.addClass(node, className) //return {null}
 ```
 <br>
 
 ### removeClass(node, className)
 - Function for remove class name
 ```
-B.removeClass(node, className) //return true or false
+B.removeClass(node, className) //return {null}
 ```
 <br>
 
 ### getAbsoluteUrl(url)
 - Function for get absolute url
 ```
-B.getAbsoluteUrl('/hhh') //return 'https://github.com/hhh'
+B.getAbsoluteUrl('/hello') //return 'http://localhost/hello'
 ```
 <br>
 

@@ -1,7 +1,7 @@
 {
-  "name": "adam",
-  "version": "1.0.0",
-  "description": "造轮子一直都是前端开发中绕不过去的槛，作为初学者倒是不用想太多，自己私底下一定要造，你造轮子写的每一行代码都会化成你的底蕴。",
+  "name": "unlunar",
+  "version": "1.0.4",
+  "description": "自己写的封装一些实用函数的包",
   "main": "base.js",
   "directories": {
     "test": "tests"
@@ -18,7 +18,7 @@
     "url": "http://git.imweb.io/ShiYue/adam.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "unlunar",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
